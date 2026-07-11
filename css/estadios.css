@@ -241,3 +241,10 @@ body {
     justify-content: center;
   }
 }
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/estadios/images_ESTADIOS__CANADA__900__x__400__px.webp);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: var(--wc-blanco);
+}
