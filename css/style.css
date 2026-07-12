@@ -317,6 +317,26 @@ body {
   margin-bottom: 0;
 }
 
+.wc-cta {
+  background: linear-gradient(90deg, var(--wc-gris-oscuro) 0%, var(--wc-verde) 100%);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.wc-cta-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--wc-blanco);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.wc-cta-text {
+  color: var(--wc-gris-claro);
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
 .wc-footer {
   background: var(--wc-gris-oscuro);
   color: var(--wc-gris-claro);
