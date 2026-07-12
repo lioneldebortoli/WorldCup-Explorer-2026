@@ -221,6 +221,39 @@ body {
   margin-bottom: 0;
 }
 
+.wc-why {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: var(--wc-gris-claro);
+}
+
+.wc-why-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--wc-gris-oscuro);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.wc-why-item {
+  height: 100%;
+}
+
+.wc-why-item i {
+  color: var(--wc-verde);
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.wc-why-item p {
+  color: var(--wc-gris-oscuro);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+
+
 .wc-footer {
   background: var(--wc-gris-oscuro);
   color: var(--wc-gris-claro);
