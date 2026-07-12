@@ -12,6 +12,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .wc-navbar {
@@ -95,6 +97,47 @@ body {
 .wc-nav-link.wc-nav-cta:hover {
   background-color: #c8181f;
   color: var(--wc-blanco);
+}
+
+.hero {
+  background:
+    linear-gradient(180deg, rgba(33, 37, 41, 0.55) 0%, rgba(42, 57, 141, 0.75) 100%),
+    url(../assets/img/heroInicio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--wc-blanco);
+  display: flex;
+  align-items: center;
+}
+
+.hero-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  color: var(--wc-blanco);
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  color: var(--wc-gris-claro);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero .col-lg-6.offset-1 {
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
 .wc-footer {
