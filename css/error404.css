@@ -97,18 +97,6 @@ body {
   color: var(--wc-blanco);
 }
 
-@media (max-width: 991.98px) {
-  .wc-nav-list {
-    text-align: center;
-    gap: 0.5rem;
-    padding-top: 0.5rem;
-  }
-
-  .wc-nav-link {
-    display: inline-block;
-  }
-}
-
 .wc-footer {
   background: var(--wc-gris-oscuro);
   color: var(--wc-gris-claro);
@@ -239,5 +227,17 @@ body {
 
   .wc-footer-social {
     justify-content: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .wc-nav-list {
+    text-align: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .wc-nav-link {
+    display: inline-block;
   }
 }
