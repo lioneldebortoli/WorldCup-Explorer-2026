@@ -97,16 +97,109 @@ body {
   color: var(--wc-blanco);
 }
 
-@media (max-width: 991.98px) {
-  .wc-nav-list {
-    text-align: center;
-    gap: 0.5rem;
-    padding-top: 0.5rem;
-  }
+.wc-404 {
+  position: relative;
+  min-height: 80vh;
+  background: url(https://wallpapers.com/images/hd/football-pc-wzpsrv3xt522iiu5.jpg) center / cover no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
 
-  .wc-nav-link {
-    display: inline-block;
-  }
+.wc-404-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, rgba(33, 37, 41, 0.6) 100%);
+}
+
+.wc-404-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: var(--wc-blanco);
+}
+
+.wc-404-number {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 9rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.wc-404-azul {
+  color: var(--wc-azul);
+}
+
+.wc-404-rojo {
+  color: var(--wc-rojo);
+}
+
+.wc-404-verde {
+  color: var(--wc-verde);
+}
+
+.wc-404-title {
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.wc-404-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.wc-404-line {
+  height: 2px;
+  width: 100px;
+}
+
+.wc-404-line-azul {
+  background-color: var(--wc-rojo);
+}
+
+.wc-404-line-verde {
+  background-color: var(--wc-verde);
+}
+
+.wc-404-ball {
+  font-size: 1.2rem;
+  color: var(--wc-blanco);
+}
+
+.wc-404-text {
+  font-size: 1.05rem;
+  color: var(--wc-gris-claro);
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+
+.wc-404-btn {
+  background-color: var(--wc-verde);
+  color: var(--wc-blanco);
+  font-weight: 700;
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.wc-404-btn:hover {
+  background-color: var(--wc-azul);
+  color: var(--wc-blanco);
+  transform: translateY(-3px);
 }
 
 .wc-footer {
@@ -239,5 +332,36 @@ body {
 
   .wc-footer-social {
     justify-content: center;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .wc-nav-list {
+    text-align: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .wc-nav-link {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wc-404-number {
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .wc-404-title {
+    font-size: 1.3rem;
+  }
+
+  .wc-404-text {
+    font-size: 0.9rem;
+  }
+
+  .wc-404-nav-item span {
+    font-size: 0.75rem;
   }
 }
