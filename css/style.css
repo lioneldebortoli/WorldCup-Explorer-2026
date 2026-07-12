@@ -252,7 +252,70 @@ body {
   margin-bottom: 0;
 }
 
+.wc-stats {
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
+  background-color: var(--wc-gris-claro);
+}
 
+.wc-stats-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--wc-gris-oscuro);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.wc-stat-card {
+  background-color: var(--wc-blanco);
+  border-radius: 10px;
+  text-align: center;
+  padding: 1.3rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.wc-stat-card:hover {
+  transform: translateY(-4px);
+}
+
+.wc-stat-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.wc-stat-azul {
+  color: var(--wc-azul);
+}
+
+.wc-stat-verde {
+  color: var(--wc-verde);
+}
+
+.wc-stat-rojo {
+  color: var(--wc-rojo);
+}
+
+.wc-stat-amarillo {
+  color: #f2b705;
+}
+
+.wc-stat-number {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: var(--wc-gris-oscuro);
+  margin-bottom: 0.2rem;
+}
+
+.wc-stat-label {
+  font-size: 0.75rem;
+  color: var(--wc-gris-secundario);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+}
 
 .wc-footer {
   background: var(--wc-gris-oscuro);
