@@ -125,20 +125,7 @@ body {
   line-height: 1.6;
 }
 
-@media (max-width: 767.98px) {
-  .hero-title {
-    font-size: 2rem;
-  }
 
-  .hero-subtitle {
-    font-size: 0.95rem;
-  }
-
-  .hero .col-lg-6.offset-1 {
-    margin: 0 auto;
-    text-align: center;
-  }
-}
 
 .wc-footer {
   background: var(--wc-gris-oscuro);
@@ -282,5 +269,20 @@ body {
 
   .wc-footer-social {
     justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero .col-lg-6.offset-1 {
+    margin: 0 auto;
+    text-align: center;
   }
 }
