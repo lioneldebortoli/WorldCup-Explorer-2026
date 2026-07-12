@@ -248,3 +248,7 @@ body {
   background-repeat: no-repeat;
   color: var(--wc-blanco);
 }
+
+.inicio {
+  border-color: var(--wc-rojo);
+}
