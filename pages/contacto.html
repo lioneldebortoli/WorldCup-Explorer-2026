@@ -52,6 +52,60 @@
     </nav>
   </header>
   <main>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Todo sobre el Mundial 2026: países anfitriones, estadios, selecciones participantes y el camino hacia la gran competencia internacional de fútbol." />
+  <meta name="keywords"
+    content="Mundial 2026, Copa Mundial FIFA 2026, países anfitriones, estadios Mundial 2026, selecciones Mundial 2026, fútbol internacional, calendario mundialista" />
+  <meta name="author" content="GrupoWorldCup">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WC Explorer | Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="shortcut icon" href="/assets/img/logowc.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/contacto.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg wc-navbar">
+      <div class="container">
+        <a class="navbar-brand wc-brand" href="/index.html">
+          <img src="/assets/img/logowc.png" alt="Logo WC Explorer" class="wc-logo" />
+          <span class="wc-brand-name">World Cup Explorer 2026</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 wc-nav-list">
+            <li class="nav-item">
+              <a class="nav-link wc-nav-link" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wc-nav-link " href="/pages/paisesAnfitriones.html">Países Anfitriones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wc-nav-link" href="/pages/estadios.html">Estadios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wc-nav-link " href="/pages/selecciones.html">Selecciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link wc-nav-link wc-nav-cta active" href="/pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
     <section class="banner-contacto">
       <div class="container text-center">
         <h1>CONTACTO</h1>
@@ -133,13 +187,13 @@
 
                   <div class="col-md-6 mb-3">
 
-                    <input type="text" class="form-control" placeholder="Nombre">
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre" minlength="2" maxlength="20" required>
 
                   </div>
 
                   <div class="col-md-6 mb-3">
 
-                    <input type="text" class="form-control" placeholder="Apellido">
+                    <input type="text" class="form-control" placeholder="Apellido" name="apellido" minlength="2" maxlength="20" required>
 
                   </div>
 
@@ -147,19 +201,19 @@
 
                 <div class="mb-3">
 
-                  <input type="email" class="form-control" placeholder="Correo electrónico">
+                  <input type="email" class="form-control" placeholder="Correo electrónico" name="correo" minlength="6" maxlength="20" required>
 
                 </div>
 
                 <div class="mb-3">
 
-                  <input type="text" class="form-control" placeholder="Asunto">
+                  <input type="text" class="form-control" placeholder="Asunto" name="asunto" minlength="3" maxlength="80" required>
 
                 </div>
 
                 <div class="mb-3">
 
-                  <textarea class="form-control" rows="5" placeholder="Escribí tu mensaje"></textarea>
+                  <textarea class="form-control" rows="5" placeholder="Escribí tu mensaje" name="mensaje" minlength="10" maxlength="500" required></textarea>
 
                 </div>
 
@@ -295,6 +349,61 @@
         </div>
 
     </section>
+  </main>
+  <footer class="wc-footer">
+    <div class="container">
+      <div class="row wc-footer-top">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <a href="#" class="wc-footer-brand">
+            <img src="/assets/img/logowc.png" alt="Logo WC Explorer" class="wc-footer-logo" />
+            <span>World Cup Explorer 2026</span>
+          </a>
+          <p class="wc-footer-text">
+            Explora toda la información del Mundial 2026: selecciones,
+            estadios, países anfitriones y mucho más.
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="wc-footer-title">ENLACES RÁPIDOS</h6>
+          <ul class="wc-footer-links">
+            <li><a href="/index.html">Inicio</a></li>
+            <li><a href="/pages/paisesAnfitriones.html">Países Anfitriones</a></li>
+            <li><a href="/pages/estadios.html">Estadios</a></li>
+            <li><a href="/pages/selecciones.html">Selecciones</a></li>
+            <li><a href="/pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="wc-footer-title">SÍGUENOS</h6>
+          <div class="wc-footer-social">
+            <a href="/pages/error404.html" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="/pages/error404.html" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="/pages/error404.html" aria-label="Twitter/X"><i class="bi bi-twitter-x"></i></a>
+            <a href="/pages/error404.html" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h6 class="wc-footer-title">CONTACTO</h6>
+          <ul class="wc-footer-contact">
+            <li>
+              <i class="bi bi-envelope"></i> info@worldcupexplorer2026.com
+            </li>
+            <li><i class="bi bi-geo-alt"></i> Ciudad de México</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="wc-footer-divider" />
+      <p class="wc-footer-bottom">
+        © 2026 World Cup Explorer. Todos los derechos reservados.
+      </p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
   </main>
   <footer class="wc-footer">
     <div class="container">
