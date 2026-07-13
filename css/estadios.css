@@ -248,3 +248,20 @@ body {
   background-repeat: no-repeat;
   color: var(--wc-blanco);
 }
+
+.galeria {
+  color: var(--wc-azul);
+}
+
+.card-title {
+  color: var(--wc-azul);
+}
+
+.card-text {
+  color: var(--wc-azul);
+}
+
+.card-img-top{
+  object-fit: 100% 100%;
+}
+
