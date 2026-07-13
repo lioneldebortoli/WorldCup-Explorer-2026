@@ -250,5 +250,5 @@ body {
 }
 
 .inicio {
-  border-color: var(--wc-rojo);
+  color: var(--wc-azul);
 }
