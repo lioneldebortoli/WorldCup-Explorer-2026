@@ -149,7 +149,27 @@ body {
   line-height: 1.6;
 }
 
+.wc-paises-header {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: var(--wc-blanco);
+}
 
+.wc-paises-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--wc-gris-oscuro);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.wc-paises-text {
+  color: var(--wc-gris-secundario);
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
 
 .wc-footer {
   background: var(--wc-gris-oscuro);
@@ -293,5 +313,15 @@ body {
 
   .wc-nav-link {
     display: inline-block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .wc-paises-title {
+    font-size: 1.5rem;
+  }
+
+  .wc-paises-text {
+    font-size: 0.9rem;
   }
 }
