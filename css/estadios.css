@@ -248,3 +248,7 @@ body {
   background-repeat: no-repeat;
   color: var(--wc-blanco);
 }
+
+.curiosidades {
+  color: var(--wc-azul);
+}
