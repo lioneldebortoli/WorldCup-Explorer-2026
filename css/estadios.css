@@ -252,6 +252,9 @@ body {
   color: var(--wc-blanco);
 }
 
+.curiosidades {
+  color: var(--wc-azul);
+}
 .icon {
   height: 2em;
   width: auto;
