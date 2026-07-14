@@ -248,3 +248,9 @@ body {
   background-repeat: no-repeat;
   color: var(--wc-blanco);
 }
+
+.icon {
+  height: 2em;
+  width: auto;
+  vertical-align: middle;
+}
