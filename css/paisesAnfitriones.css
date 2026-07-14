@@ -316,6 +316,74 @@ body {
   background-color: rgba(60, 172, 59, 0.08);
 }
 
+.wc-cities {
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
+  background-color: var(--wc-gris-claro);
+}
+
+.wc-cities-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: var(--wc-gris-oscuro);
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.wc-cities-col {
+  background-color: var(--wc-blanco);
+  border-radius: 10px;
+  padding: 1.3rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.wc-cities-country {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--wc-gris-claro);
+}
+
+.wc-cities-col-rojo .wc-cities-country {
+  color: var(--wc-rojo);
+  border-bottom-color: var(--wc-rojo);
+}
+
+.wc-cities-col-azul .wc-cities-country {
+  color: var(--wc-azul);
+  border-bottom-color: var(--wc-azul);
+}
+
+.wc-cities-col-verde .wc-cities-country {
+  color: var(--wc-verde);
+  border-bottom-color: var(--wc-verde);
+}
+
+.wc-cities-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wc-cities-list li {
+  color: var(--wc-gris-secundario);
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
+}
+
+.wc-cities-list li:last-child {
+  margin-bottom: 0;
+}
+
+.wc-cities-list i {
+  color: var(--wc-gris-secundario);
+  margin-right: 0.5rem;
+  font-size: 0.85rem;
+}
+
 .wc-footer {
   background: var(--wc-gris-oscuro);
   color: var(--wc-gris-claro);
