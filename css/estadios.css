@@ -243,7 +243,10 @@ body {
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/estadios/images_ESTADIOS__CANADA__900__x__400__px.webp);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/images_ESTADIOS__CANADA__900__x__400__px.webp);
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../assets/img/estadios/images_ESTADIOS__CANADA__900__x__400__px.webp);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   color: var(--wc-blanco);
@@ -256,5 +259,24 @@ body {
 }
 
 .info {
+  color: var(--wc-azul);
+}
+.galeria {
+  color: var(--wc-azul);
+}
+
+.card-title {
+  color: var(--wc-azul);
+}
+
+.card-text {
+  color: var(--wc-azul);
+}
+
+.card-img-top{
+  object-fit: 100% 100%;
+}
+
+.inicio {
   color: var(--wc-azul);
 }
