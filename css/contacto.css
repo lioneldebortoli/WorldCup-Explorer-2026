@@ -268,10 +268,8 @@ body {
 .banner-contacto {
   background:
     linear-gradient(rgba(42, 57, 141, 0.85), rgba(42, 57, 141, 0.85)),
-    url("../img/banner.jpg") center/cover;
-
+    url(/assets/img/heroContacto.png) center/cover;
   color: white;
-
   padding: 90px 0;
 }
 

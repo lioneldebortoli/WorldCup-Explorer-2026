@@ -258,7 +258,7 @@ body {
       rgba(42, 57, 141, 0.55) 60%,
       rgba(42, 57, 141, 0.15) 100%
     ),
-    url("../assets/img/hero-jugadores.jpg");
+    url(/assets/img/heroSelecciones.png);
   background-size: cover;
   background-position: center;
   padding: 60px 40px;
