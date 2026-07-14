@@ -281,8 +281,8 @@ body {
 }
 
 .wc-compare-table thead th {
-  background-color: var(--wc-azul) ;
-  color: var(--wc-blanco) ;
+  background-color: var(--wc-azul);
+  color: var(--wc-blanco);
   font-weight: 700;
   font-size: 0.85rem;
   text-transform: uppercase;
