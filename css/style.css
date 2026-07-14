@@ -106,7 +106,7 @@ body {
       rgba(33, 37, 41, 0.55) 0%,
       rgba(42, 57, 141, 0.75) 100%
     ),
-    url(../assets/img/heroInicio.jpg);
+    url(/assets/img/heroInicio.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
