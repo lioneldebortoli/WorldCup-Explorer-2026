@@ -254,3 +254,7 @@ body {
   width: auto;
   vertical-align: middle;
 }
+
+.info {
+  color: var(--wc-azul);
+}
